@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  padding-left: 5rem;
+}
+.description{
+  font-weight: 700;
+}
