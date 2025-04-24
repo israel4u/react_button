@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import Button from './components/MyButton';
 import styles from './Modules/wrapper.module.css';
+import Products from './components/RenderingList'
 
 function App() {
  
@@ -13,6 +14,8 @@ function App() {
         <div className="buttonOne"><Button /></div>
         <div className="buttonTwo"><Button /></div>
       </div>
+      <Products />
+
      
     </div>
   )
